@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "a02",
+  "version": "1.0.0",
+  "description": "This assignment will help you learn to create an installable Node.js command line utility.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-xzkxu.git"
+  },
+  "author": "zhaokun_xu",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-xzkxu/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a02-xzkxu#readme",
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.38",
+    "node-fetch": "^3.3.0"
+  }
+}
